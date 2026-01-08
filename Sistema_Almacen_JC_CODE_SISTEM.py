@@ -6214,12 +6214,29 @@ elif proyectos == "CHECK FILEWEB AND LASERFICHE":
             df1 = pd.read_excel(file1)
             df2 = pd.read_excel(file2)
 
+            # NORMALIZAR COLUMNAS (CLAVE)
+            df1.columns = (
+                df1.columns
+                .str.replace('\n', ' ', regex=True)
+                .str.replace('\xa0', ' ', regex=True)
+                .str.strip()
+            )
+
+            df2.columns = (
+                df2.columns
+                .str.replace('\n', ' ', regex=True)
+                .str.replace('\xa0', ' ', regex=True)
+                .str.strip()
+            )
+
+            #st.write("Columnas LaserFiche detectadas:", list(df2.columns))
+
             # Asegurar que las columnas relevantes sean texto
             columnas_texto = [
                 'SolicitudCodeFileWeb', 'Tipo de Solicitud FileWeb', 'Estado de Solicitud FileWeb',
                 'WorkOrderCodeFileWe', 'CantidadFileWeb', 'TipoFileFileWeb', 'Centro de Costo FileWeb',
                 'Fecha de Registro FileWeb', 'NombreLaserFiche', 'Cliente LaserFiche',
-                'Estado de OT LaserFiche', 'Nro Solicitud laserFiche'
+                'Estado de OT LaserFiche', 'Nro Solicitud laserFiche', 'Direccion'
             ]
             for df in [df1, df2]:
                 for col in columnas_texto:
@@ -6230,7 +6247,7 @@ elif proyectos == "CHECK FILEWEB AND LASERFICHE":
                 df1[['SolicitudCodeFileWeb', 'Tipo de Solicitud FileWeb', 'Estado de Solicitud FileWeb',
                     'WorkOrderCodeFileWe', 'CantidadFileWeb', 'TipoFileFileWeb', 'Centro de Costo FileWeb',
                     'Fecha de Registro FileWeb']],
-                df2[['NombreLaserFiche', 'Cliente LaserFiche', 'Estado de OT LaserFiche', 'Nro Solicitud laserFiche']],
+                df2[['NombreLaserFiche', 'Cliente LaserFiche', 'Estado de OT LaserFiche', 'Nro Solicitud laserFiche', 'Direccion']],
                 left_on='SolicitudCodeFileWeb',
                 right_on='Nro Solicitud laserFiche',
                 how='inner'
@@ -6248,7 +6265,8 @@ elif proyectos == "CHECK FILEWEB AND LASERFICHE":
                 'CantidadFileWeb',
                 'TipoFileFileWeb',
                 'Centro de Costo FileWeb',
-                'Cliente LaserFiche'
+                'Cliente LaserFiche',
+                'Direccion'
             ]
 
             return merged_df[column_order]
@@ -6832,3 +6850,4 @@ elif proyectos == "JUEGA CON DINO":
     """
 
     st.components.v1.html(game_code, height=450)
+
