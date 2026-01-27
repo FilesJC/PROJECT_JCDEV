@@ -3484,7 +3484,8 @@ elif proyectos == "CREAR GUIA RUTA LA PAZ":
                         "275 - FRANZ TAMAYO", 
                         "251 - 16 DE JULIO", 
                         "279 - CHACALTAYA", 
-                        "277 - FERROPETROL"],
+                        "277 - FERROPETROL",
+                        "280 - LAGUNAS EX PARADA 8"],
                     "CENTRO": [
                         "270 - 12 DE OCTUBRE", 
                         "252 - LA CEJA", 
@@ -6851,5 +6852,6 @@ elif proyectos == "JUEGA CON DINO":
     """
 
     st.components.v1.html(game_code, height=450)
+
 
 
