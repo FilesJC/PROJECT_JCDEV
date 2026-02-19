@@ -3387,7 +3387,8 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                     "": [
                         "501 - MERCADO UYUNI",
                         "502 - SOL AMIGO POTOSI",
-                        "503 - BOULEVARD"
+                        "503 - BOULEVARD", 
+                        "505 - LAS BANDERAS"
                     ]
                 },
                 "REGIONAL SANTA CRUZ": {
@@ -6221,3 +6222,4 @@ else:
     st.title("👋 Bienvenido al Sistema de Almacén")
 
     st.write("Seleccione una opción del menú lateral")
+
