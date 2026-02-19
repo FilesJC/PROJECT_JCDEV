@@ -3422,6 +3422,16 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                         "738 - EL BAJIO",
                         "739 - CRISTO REDENTOR"
                     ]
+                }, 
+                "MOLINO ANDINO" :{
+                    "" : [
+                        "620 - MOLINO ANDINO S.A."
+                    ]
+				},
+                "ROCHE BOLIVIA" :{
+                    "" :[
+                        "599 - ROCHE BOLIVIA S.R.L."
+                    ]
                 }
             }
 
@@ -6222,4 +6232,5 @@ else:
     st.title("👋 Bienvenido al Sistema de Almacén")
 
     st.write("Seleccione una opción del menú lateral")
+
 
