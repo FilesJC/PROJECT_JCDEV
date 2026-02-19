@@ -3657,10 +3657,10 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
             with col1:
                 file_name_input = st.text_input("📝 Nombre del archivo para CORREO", value="Archivo_Enviar_CORREO")
                 file_name_correo = st.text_input("📝 Nombre archivo para RUTA", value="Archivo_Enviar_Ruta")
-
+                sheet_name_input = st.text_input("📄 Nombre de la hoja", value="Ruta")
+                
             with col2:
-                #sheet_name_input = st.text_input("📄 Nombre de la hoja", value="Ruta")
-
+                
                 recojo_title = st.text_input("✏️ Título Recojo", value="RECOJO DE CAJAS B_SOL")
                 devolucion_title = st.text_input("✏️ Título Devolución", value="DEVOLUCIÓN DE ITEMS B_SOL")
 
@@ -6219,4 +6219,5 @@ elif proyecto == "JUEGA CON DINO":
 
 else:
     st.title("👋 Bienvenido al Sistema de Almacén")
+
     st.write("Seleccione una opción del menú lateral")
