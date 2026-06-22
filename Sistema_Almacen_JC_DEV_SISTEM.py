@@ -3284,7 +3284,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL TARIJA": {
                     "": [
-						"600 - REGIONAL TARIJA,
+						"600 - REGIONAL TARIJA",
                         "601 - MERCADO CAMPESINO TARIJA",
                         "603 - SUR",
                         "604 - SOL AMIGO TARIJA",
@@ -6589,3 +6589,4 @@ else:
     st.title("👋 Bienvenido al Sistema de Almacén")
 
     st.write("Seleccione una opción del menú lateral")
+
