@@ -3261,6 +3261,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL ORURO": {
                     "ORURO": [
+						"400 - REGIONAL ORURO",
                         "401 - CENTRAL", 
                         "407 - NORMALIZACION ORURO", 
                         "408 - PUNTO AMIGO ORURO", 
@@ -3283,6 +3284,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL TARIJA": {
                     "": [
+						"600 - REGIONAL TARIJA,
                         "601 - MERCADO CAMPESINO TARIJA",
                         "603 - SUR",
                         "604 - SOL AMIGO TARIJA",
@@ -3616,6 +3618,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL ORURO": {
                     "ORURO": [
+						"400 - REGIONAL ORURO",
                         "401 - CENTRAL", 
                         "407 - NORMALIZACION ORURO", 
                         "408 - PUNTO AMIGO ORURO", 
@@ -3638,6 +3641,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL TARIJA": {
                     "": [
+						"600 - REGIONAL TARIJA",
                         "601 - MERCADO CAMPESINO TARIJA",
                         "603 - SUR",
                         "604 - SOL AMIGO TARIJA",
@@ -6583,4 +6587,5 @@ elif proyecto == "JUEGA CON DINO":
 
 else:
     st.title("👋 Bienvenido al Sistema de Almacén")
+
     st.write("Seleccione una opción del menú lateral")
