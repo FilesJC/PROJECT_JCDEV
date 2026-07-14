@@ -1,13 +1,13 @@
-﻿altair==5.5.0
-DateTime==5.5
-openpyxl==3.1.5
+﻿streamlit==1.50.0
+altair==5.5.0
+typing_extensions>=4.14.0
 pandas==2.3.3
-pathlib==1.0.1
-pydeck==0.9.1
 plotly==6.5.0
+openpyxl==3.1.5
+pydeck==0.9.1
 pyfiglet==1.0.4
-streamlit==1.50.0
 urllib3==2.5.0
-xlsxwriter==3.2.9
+XlsxWriter==3.2.9
+DateTime==5.5
 
 
