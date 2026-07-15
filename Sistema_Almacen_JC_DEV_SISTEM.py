@@ -8,7 +8,6 @@ import warnings
 import plotly.express as px
 import pandas as pd
 import os
-#import altair as alt
 import plotly.graph_objects as go
 import xlsxwriter
 from pathlib import Path
