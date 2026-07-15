@@ -8,5 +8,6 @@ pyfiglet==1.0.4
 urllib3==2.5.0
 XlsxWriter==3.2.9
 DateTime==5.5
+pathlib==1.0.1
 
 
