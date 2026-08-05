@@ -3381,9 +3381,12 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                 },
                 "REGIONAL POTOSI": {
                     "": [
+						"500 - REGIONAL POTOSI", 
                         "501 - MERCADO UYUNI",
                         "502 - SOL AMIGO POTOSI",
-                        "503 - BOULEVARD"]
+                        "503 - BOULEVARD",
+					    "505 - BANDERAS", 
+					    "506 - MURILLO"] 
                 },
                 "REGIONAL SANTA CRUZ": {
                     "": [
@@ -3741,10 +3744,13 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
                     ]
                 },
                 "REGIONAL POTOSI": {
-                    "": [
+                    "": [                                                
+						"500 - REGIONAL POTOSI", 
                         "501 - MERCADO UYUNI",
                         "502 - SOL AMIGO POTOSI",
-                        "503 - BOULEVARD"
+                        "503 - BOULEVARD",
+					    "505 - BANDERAS", 
+					    "506 - MURILLO"
                     ]
                 },
                 "REGIONAL SANTA CRUZ": {
