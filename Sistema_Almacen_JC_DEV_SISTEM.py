@@ -3776,7 +3776,7 @@ elif proyecto == "CREAR GUIA RUTA LA PAZ":
 						"REGIONAL EL ALTO - VILLA DOLORES",
 						"REGIONAL EL ALTO - VENTILLA",
 						"REGIONAL EL ALTO - 16 DE JULIO",
-						"REGIONAL EL ALTO - VENTILLA
+						"REGIONAL EL ALTO - VENTILLA"
 					],
 					
                     "BFIE SANTA CRUZ": [
